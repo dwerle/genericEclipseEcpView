@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GenericEcpEditor
+Bundle-SymbolicName: edu.kit.ipd.are.genericecpeditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.ecp.ui.view.swt,
+ org.eclipse.ui.views,
+ org.eclipse.core.expressions
